@@ -42,6 +42,18 @@ permitted by applicable law.
 HypriotOS/armv7: pirate@hostname in ~
 ```
 
+### Docker
+```
+$ docker run -d -p 80:80 hypriot/rpi-busybox-httpd
+5aefd0c85d30145395b6b95bf1a47e2a5ee9b2783e1d0c40c6a91e03d8737b60
+$ docker ps
+CONTAINER ID        IMAGE                       COMMAND                  CREATED             STATUS              PORTS                NAMES
+5aefd0c85d30        hypriot/rpi-busybox-httpd   "/bin/busybox httpd -"   26 seconds ago      Up 23 seconds       0.0.0.0:80->80/tcp   sharp_wright
+$ docker info
+$ docker stop sharp_wright
+sharp_wright
+```
+
 # 参考URL
 * https://github.com/hypriot/flash
 * https://blog.hypriot.com/getting-started-with-docker-and-mac-on-the-raspberry-pi/
