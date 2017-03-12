@@ -1,5 +1,5 @@
 # RaspberryPiでKubernetesのClusterを構築する
-## OS準備
+## 下準備
 ### Requirements
 * wget
 * pv
@@ -42,7 +42,7 @@ permitted by applicable law.
 HypriotOS/armv7: pirate@hostname in ~
 ```
 
-### Docker
+### Docker Test
 ```
 $ docker run -d -p 80:80 hypriot/rpi-busybox-httpd
 5aefd0c85d30145395b6b95bf1a47e2a5ee9b2783e1d0c40c6a91e03d8737b60
