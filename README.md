@@ -18,7 +18,7 @@ $ sudo mv flash /usr/local/bin/flash
 * Is /dev/disk1 correct? は yes
 * 途中でパスワードを聞かれます
 * 「🍺  Finished.」 がでればOK
- 
+
 ```bash
 $ flash --ssid "access-point" --password "password" --hostname hostname https://github.com/hypriot/image-builder-rpi/releases/download/v1.1.3/hypriotos-rpi-v1.1.3.img.zip
 ```
@@ -55,7 +55,17 @@ sharp_wright
 ```
 
 # 参考URL
+## 下準備
 * https://github.com/hypriot/flash
 * https://blog.hypriot.com/getting-started-with-docker-and-mac-on-the-raspberry-pi/
 * http://blog.kubernetes.io/2015/11/creating-a-Raspberry-Pi-cluster-running-Kubernetes-the-shopping-list-Part-1.html
 * http://blog.kubernetes.io/2015/12/creating-raspberry-pi-cluster-running.html
+
+## k8s
+* https://kubernetes.io
+* http://knowledge.sakura.ad.jp/tech/3681/
+
+# Ansible
+* http://docs.ansible.com/ansible/playbooks_best_practices.html
+* http://knowledge.sakura.ad.jp/tech/3084/
+* http://knowledge.sakura.ad.jp/tech/3086/
