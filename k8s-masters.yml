@@ -1,0 +1,5 @@
+---
+  - hosts: k8s-masters
+    roles:
+      - common
+      - k8s-master
